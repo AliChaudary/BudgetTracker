@@ -60,13 +60,10 @@ npm run dev
 ```
 
 This will:
+
 - Start the **Express backend** on `http://localhost:3001`
 - Start the **Vite frontend** on `http://localhost:5173`
 
 Make sure `nodemon` is installed (it should be added in `devDependencies`).
 
 ---
-
-## 📄 .env Files (Optional)
-
-If you’re using environment variables, create `.env` files in `backend/` or `frontend/` folders as needed.
