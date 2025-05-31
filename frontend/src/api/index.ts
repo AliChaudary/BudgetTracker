@@ -1,7 +1,7 @@
 import axios from "axios";
 import type { Transaction, TransactionFormData } from "../types";
 
-const API_URL = "http://localhost:3001/api";
+const API_URL = "https://budgettracker-lq8c.onrender/api";
 
 export const fetchTransactions = async (): Promise<Transaction[]> => {
   try {
